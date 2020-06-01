@@ -46,9 +46,11 @@ ul li a{
     color: #fff;
     padding: 10px;
     padding-left: 20px;
+    padding-right: 25px;
     text-decoration: none;
     transition: all 0.5s ease;
-    font-size: 16px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul li a:hover{

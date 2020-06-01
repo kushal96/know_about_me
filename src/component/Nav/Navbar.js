@@ -33,13 +33,16 @@ class Navbar extends Component {
                     </div>
                 
                 </div>
-                <ul className={this.state.isOpen ? 'showNav' : 'undefined'}>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/projects'>Projects</Link></li>
-                    <li><Link to='/resume'>Resume</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
-                </ul>
+                <div className="topnav-centered">
+                    <ul className={this.state.isOpen ? 'showNav' : 'undefined'}>
+                        <li><Link to='/'>HOME</Link></li>
+                        <li><Link to='/about'>ABOUT</Link></li>
+                        <li><Link to='/projects'>PROJECTS</Link></li>
+                        <li><Link to='/resume'>RESUME</Link></li>
+                        <li><Link to='/contact'>CONTACT</Link></li>
+                    </ul>
+                </div>
+                
             </nav>
         )
     }
