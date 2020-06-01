@@ -1,0 +1,13 @@
+#logo{
+    padding: 5px;
+    padding-left: 5ex;
+}
+
+.test{
+    font-family: fantasy;
+}
+
+body{
+    background-color: #333333;
+    background-image: ('../images/first_bg.jpg');
+}
