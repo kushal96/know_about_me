@@ -18,22 +18,21 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav>
-                <div className="logoBtn">
-                    <div className="logo">
-                        <Link to='/'>
-                            <img src ={logo} className="logo" alt=""/>
-                        </Link>
+                <nav>
+                    <div className="logoBtn">
+                        <div className="logo">
+                            <Link to='/'>
+                                <img src ={logo} className="logo" alt=""/>
+                            </Link>
+                        </div>
+                    
+                        <div className="btn" onClick={this.handleClick}>
+                            <div className="bar"> </div>
+                            <div className="bar"> </div>
+                            <div className="bar"> </div>
+                        </div>
+                    
                     </div>
-                
-                    <div className="btn" onClick={this.handleClick}>
-                        <div className="bar"> </div>
-                        <div className="bar"> </div>
-                        <div className="bar"> </div>
-                    </div>
-                
-                </div>
-                <div className="topnav-centered">
                     <ul className={this.state.isOpen ? 'showNav' : 'undefined'}>
                         <li><Link to='/'>HOME</Link></li>
                         <li><Link to='/about'>ABOUT</Link></li>
@@ -41,9 +40,8 @@ class Navbar extends Component {
                         <li><Link to='/resume'>RESUME</Link></li>
                         <li><Link to='/contact'>CONTACT</Link></li>
                     </ul>
-                </div>
-                
-            </nav>
+                </nav>
+            
         )
     }
 }

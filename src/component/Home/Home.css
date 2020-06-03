@@ -1,3 +1,12 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
 #logo{
     padding: 5px;
     padding-left: 5ex;
@@ -8,6 +17,6 @@
 }
 
 body{
-    background-color: #333333;
-    background-image: ('../images/first_bg.jpg');
+    background-color: #ff6666;
+    /* background-image: ('../images/first_bg.jpg'); */
 }
