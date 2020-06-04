@@ -16,7 +16,8 @@
     font-family: fantasy;
 }
 
-body{
+.homediv{
     background-color: #ff6666;
     /* background-image: ('../images/first_bg.jpg'); */
 }
+

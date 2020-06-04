@@ -4,6 +4,7 @@ import './index.css';
 import Home from './component/Home/Home';
 import Routes from './util/Routes';
 import * as serviceWorker from './serviceWorker';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 
 ReactDOM.render(Routes, document.getElementById('root'));

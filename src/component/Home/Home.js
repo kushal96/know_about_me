@@ -9,14 +9,17 @@ import bg from '../images/first_bg.jpg';
 function Home() {
   return (
     <body>
-      <Navbar />
-      {/* <img src ={bg} alt=""/> */}
-      <div id="page-container">
-        <div id="content-wrap">
-          Hello
+      <div className="homediv">
+        <Navbar />
+        {/* <img src ={bg} alt=""/> */}
+        <div id="page-container">
+          <div id="content-wrap">
+            Hello
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
+      
       
     </body>
     
