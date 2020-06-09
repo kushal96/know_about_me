@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 350px;
+    height: 380px;
     background-color: #1a1a1a;
     color: white;           
 }
@@ -11,17 +11,24 @@
 .info1{
     text-align: center;
     padding: 15px;
-    font-size: 25px;
+    padding-top: 45px;
+    font-size: 35px;
 }
 
 .info2{
     text-align: center;
     padding: 15px;
+    font-size: 17px;
 }
 
 .info3{
     text-align: center;
-    padding: 15px;
+    font-size: 20px;
+    width: 240px;
+    margin: auto;
+    border: solid white;
+    border-width: thin;
+    border-radius: 12px;
 }
 
 .info5{
@@ -31,6 +38,8 @@
 .info6{
     text-align: center;
     padding: 15px;
+    font-size: 12px;
+    color: #7A7D7F;
 }
 
 
@@ -65,7 +74,7 @@ ul#footer-container li {
 }
 .table ul li a:hover{
     
-    color: grey;
+    color: #8c8c8c;
 } 
 
 
@@ -100,15 +109,164 @@ ul#icons-container li {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
   
-  .fa:hover {
-      
-      color: grey;
-  }
   
 
-  .no_space{
+.no_space{
     display: inline-block;
-  }
+}
 
+.trademark{
+    margin-right: -10px;
+}
+
+.trademark:hover{
+    opacity:1.0;
+    box-shadow:none;
+}
+
+.msg{
+    margin-right: -10px;
+    margin-left: -25px;
+}
+
+.love{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.love:hover{
+    color: #B81B47;
+}
+
+.git:hover{
+    color: grey;   
+}
+
+.insta:hover{
+    color:#8134AF;
+}
+
+.link:hover{
+    color: #04669A;
+}
+.fb:hover{
+    color:#3B5998;
+}
+
+.mail:hover{
+    color: #D44638;
+}
+
+
+
+
+/* responsive nav bar */
+
+@media only screen and (max-width: 600px) {
+    #footer{
+        height: 250px;
+    }
+
+    .info1{
+        font-size: 25px;
+        padding: 5px;
+        padding-top: 0px;
+    }
+
+    .info2{
+        font-size: 15px;
+    }
+
+    .info3{
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        margin: auto;
+        border: solid white;
+        border-width: thin;
+        border-radius: 12px;
+    }
+
+    .info6{
+        padding: 5px;
+        padding-bottom:3px;
+        
+    }
+   #footer{
+       height: 320px;
+       /* margin-bottom: -50px; */
+    }
+   /* footer links */
+   #footer-container{
+        height: 70px;
+        
+    }
+      
+    #icons-container{
+        height: 45px;
+    }
+
+    ul#footer-container {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-size: 5px;
+        
+      }
+      
+    ul#footer-container li {
+        float: left;
+    }
+      
+    .table ul li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 10px;
+      }
+
+
+    /* footer icons */
+    .table1 {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+    }
+    
+    ul#icons-container {
+        min-width: 100%;
+        list-style: none;
+        padding-top: 20px;
+    }
+    ul#icons-container li {
+        display: inline;
+        font-size: 15px;
+        padding-right: -5px;
+        padding-left: -5px;
+    }
+
+    .git{
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .insta{
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .fb{
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .mail{
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .link{
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+  }

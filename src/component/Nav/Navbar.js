@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png';
 import './Navbar.css';
+import {NavLink} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
 class Navbar extends Component {
@@ -35,11 +36,11 @@ class Navbar extends Component {
                     </div>
                     <div className="navlinks">
                         <ul className={this.state.isOpen ? 'showNav' : 'undefined'}>
-                            <li><Link to='/'>HOME</Link></li>
-                            <li><Link to='/about'>ABOUT</Link></li>
-                            <li><Link to='/projects'>PROJECTS</Link></li>
-                            <li><Link to='/resume'>RESUME</Link></li>
-                            <li><Link to='/contact'>CONTACT</Link></li>
+                            <li><NavLink to='/' activeClassName="main-nav-active">HOME</NavLink></li>
+                            <li><NavLink to='/about' activeClassName="main-nav-active">ABOUT</NavLink></li>
+                            <li><NavLink to='/projects' activeClassName="main-nav-active">PROJECTS</NavLink></li>
+                            <li><NavLink to='/resume' activeClassName="main-nav-active">RESUME</NavLink></li>
+                            <li><NavLink to='/contact' activeClassName="main-nav-active">CONTACT</NavLink></li>
                         </ul>
                     </div>
                    

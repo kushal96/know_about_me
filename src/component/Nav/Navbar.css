@@ -58,8 +58,12 @@ ul{
 
 .navlinks ul li a:hover{
     /* background:#353535; */
-    color: #ffb84d;
+    color: #E1A87A;
     padding-left: 20px;
+}
+
+.main-nav-active{
+    color: red;
 }
 
 
