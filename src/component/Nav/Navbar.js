@@ -36,11 +36,11 @@ class Navbar extends Component {
                     </div>
                     <div className="navlinks">
                         <ul className={this.state.isOpen ? 'showNav' : 'undefined'}>
-                            <li><NavLink to='/' activeClassName="main-nav-active">HOME</NavLink></li>
-                            <li><NavLink to='/about' activeClassName="main-nav-active">ABOUT</NavLink></li>
-                            <li><NavLink to='/projects' activeClassName="main-nav-active">PROJECTS</NavLink></li>
-                            <li><NavLink to='/resume' activeClassName="main-nav-active">RESUME</NavLink></li>
-                            <li><NavLink to='/contact' activeClassName="main-nav-active">CONTACT</NavLink></li>
+                            <li><NavLink to='/' exact activeStyle={{color: "#E1A87A"}}>HOME</NavLink></li>
+                            <li><NavLink to='/about' exact activeStyle={{color: "#E1A87A"}}>ABOUT</NavLink></li>
+                            <li><NavLink to='/projects' exact activeStyle={{color: "#E1A87A"}}>PROJECTS</NavLink></li>
+                            <li><NavLink to='/resume' exact activeStyle={{color: "#E1A87A"}}>RESUME</NavLink></li>
+                            <li><NavLink to='/contact' exact activeStyle={{color: "#E1A87A"}}>CONTACT</NavLink></li>
                         </ul>
                     </div>
                    
