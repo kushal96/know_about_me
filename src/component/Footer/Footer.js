@@ -23,17 +23,20 @@ function Footer() {
       <div className="info2">
         Want to chat about something?
       </div>
-      <div className="info3">
-      <i class="fa fa-paper-plane msg"></i>GET IN TOUCH
-      </div>
+      <a href="mailto:kush.resham@gmail.com">
+        <div className="info3">
+        <i class="fa fa-paper-plane msg"></i>GET IN TOUCH
+        </div>
+      </a>
+      
 
       <div className="table1">
           <ul id="icons-container">
-            <li><i className="fa fa-github fa-lg git"></i></li>
-            <li><i className="fa fa-instagram fa-lg insta"></i></li>
-            <li><i className="fa fa-linkedin fa-lg link"></i></li>
-            <li><i className="fa fa-facebook fa-lg fb"></i></li>
-            <li><i className="fa fa-envelope fa-lg mail"></i></li>
+            <li><a href="https://github.com/kushal96"><i className="fa fa-github fa-lg git"></i></a></li>
+            <li><a href="https://www.instagram.com/kushal568/"><i className="fa fa-instagram fa-lg insta"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kushal96/"><i className="fa fa-linkedin fa-lg link"></i></a></li>
+            <li><a href="https://www.facebook.com/kushal.reshamdalal"><i className="fa fa-facebook fa-lg fb"></i></a></li>
+            <li><a href="mailto:kush.resham@gmail.com"><i className="fa fa-envelope fa-lg mail"></i></a></li>
           </ul>
       </div>
       <div className="info6">

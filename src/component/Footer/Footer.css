@@ -8,6 +8,9 @@
     color: white;           
 }
 
+#footer:hover .love{
+    color: #B81B47;
+}
 .info1{
     text-align: center;
     padding: 15px;
@@ -43,8 +46,10 @@
 }
 
 
-
-
+/* non changing color of links */
+a:link, a:visited {
+    color: #f2f2f2;
+}
 
 /* for footer links */
 
@@ -159,7 +164,9 @@ ul#icons-container li {
     color: #D44638;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 /* responsive nav bar */
