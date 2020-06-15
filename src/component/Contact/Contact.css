@@ -11,3 +11,13 @@
 .contactdiv{
     background-color: yellowgreen;
 }
+
+.bottomtopbtncontact{
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    background-color: #1a1a1a;
+    right: 1px;
+    bottom:310px;
+    text-decoration: none;
+  }

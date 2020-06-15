@@ -1,8 +1,13 @@
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
 #page-container {
     position: relative;
     min-height: 100vh;
 }
-  
+
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
 }
@@ -12,12 +17,75 @@
     padding-left: 5ex;
 }
 
-.test{
-    font-family: fantasy;
-}
+
 
 .homediv{
     background-color: #ff6666;
+    min-height:100%;
+    position:relative;
+    height: 2000px;
     /* background-image: ('../images/first_bg.jpg'); */
 }
 
+#page-container{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#footerhome{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.bottomtopbtnresume{
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    background-color: #1a1a1a;
+    right: 1px;
+    bottom:310px;
+    text-decoration: none;
+  }
+
+  /* test */
+
+  .container {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    margin: 0 auto 100px;
+    background: url('../images/first_bg.jpg');
+  }
+  
+  .darken-overlay div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .darken-pseudo {
+    position: relative;
+  }
+  
+  .darken-pseudo:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .darken-with-text p {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+  }

@@ -15,6 +15,7 @@ function Contact() {
             hello from contact
           </div>
           <Footer />
+          <a href="#"><i id="test1" className="fa fa-arrow-up fa-lg bottomtopbtncontact"></i></a>
         </div>
       </div>
       

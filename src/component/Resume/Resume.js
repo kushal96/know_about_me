@@ -15,6 +15,7 @@ function Resume() {
             Hello from resume
           </div>
           <Footer />
+          <a href="#"><i id="test1" className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a>
         </div>
       </div>
       

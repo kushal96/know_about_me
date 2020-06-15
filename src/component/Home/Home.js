@@ -10,13 +10,22 @@ function Home() {
   return (
     <body>
       <div className="homediv">
-        <Navbar />
-        {/* <img src ={bg} alt=""/> */}
+      <div className="container darken-pseudo darken-with-text" >
+      <Navbar />
+              <p>hello</p>
+              {/* <img src ={bg} alt=""/> */}
+      </div>
+        
+        
         <div id="page-container">
           <div id="content-wrap">
-            Hello
+          
+            
           </div>
-          <Footer />
+          <div id="footerhome">
+            <Footer />
+          </div>
+          <a href="#"><i className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a>
         </div>
       </div>
       

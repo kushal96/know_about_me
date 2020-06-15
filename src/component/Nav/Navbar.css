@@ -12,8 +12,8 @@
     width: 30px;
     margin: 4px;
     height: 4px;
-    color: rgb(139,139,137);
-    background: grey;
+    color: black;
+    background: #383838;
 }
 
 .btn{
@@ -91,6 +91,7 @@ ul{
     
     nav ul a{
         background: transparent;
+        
     }
 
     .logoBtn{
@@ -102,5 +103,7 @@ ul{
         color: #ffb84d;
         padding-left: none;
     }
+
+   
 
 }

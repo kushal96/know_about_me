@@ -15,6 +15,7 @@ function Projects() {
             Hello from projects
           </div>
           <Footer />
+          <a href="#"><i id="test1" className="fa fa-arrow-up fa-lg bottomtopbtnproj"></i></a>
         </div>
       </div>
       
