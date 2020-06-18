@@ -6,31 +6,31 @@ import Footer from '../Footer/Footer';
 import bg from '../images/first_bg.jpg';
 
 
+
 function Home() {
   return (
-    <body>
       <div className="homediv">
-      <div className="container darken-pseudo darken-with-text" >
-      <Navbar />
-              <p>hello</p>
-              {/* <img src ={bg} alt=""/> */}
-      </div>
-        
-        
-        <div id="page-container">
-          <div id="content-wrap">
-          
-            
-          </div>
-          <div id="footerhome">
-            <Footer />
-          </div>
-          <a href="#"><i className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a>
+        <div className="bg-img">
+           <Navbar />
+           <h1 className="title-home">
+              <b>KUSHAL RESHAMDALAL</b>
+           </h1>
+           <h3 className="subtitle-home">
+             CREATIVE THINKER + SOFTWARE ENGINEER + DECENT HUMAN BEING
+           </h3>
         </div>
+        <div className="profile_description">
+          
+        </div>
+        <div>
+          hello
+        </div>
+            <div id="footerhome">
+                <Footer />
+            </div>
+            <a href="#"><i className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a>
+        
       </div>
-      
-      
-    </body>
     
    
   );

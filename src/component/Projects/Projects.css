@@ -10,6 +10,9 @@
 
 .projectsdiv{
     background-color:purple;
+    min-height:100%;
+    position:relative;
+    height: 2000px;
 }
 
 .bottomtopbtnproj{
@@ -20,4 +23,19 @@
     right: 1px;
     bottom:310px;
     text-decoration: none;
+  }
+
+  .bg-img-projects {
+    /* The image used */
+    background: url('../images/first_bg.jpg');
+  
+    min-height: 400px;
+    height: 800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    
   }

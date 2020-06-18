@@ -9,6 +9,9 @@
 
 .aboutdiv{
     background-color: grey;
+    min-height:100%;
+    position:relative;
+    height: 2000px;
 }
 
 .bottomtopbtnabt{
@@ -22,46 +25,17 @@
 }
 
 
-/* test */
-
-.container {
-    width: 400px;
-    height: 300px;
+.bg-img-abt {
+    /* The image used */
+    background: url('../images/first_bg.jpg');
+  
+    min-height: 400px;
+    height: 800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto 100px;
+    
+    /* Needed to position the navbar */
+    
   }
-  
-  .darken-overlay div {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .darken-pseudo {
-    position: relative;
-  }
-  
-  .darken-pseudo:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .darken-with-text p {
-    margin: 0;
-    font-size: 2em;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    position: relative;
-    z-index: 1;
-  }
-
-
-
-
