@@ -25,7 +25,7 @@ function About() {
           <div id="footerhome">
                 <Footer />
           </div> 
-          <a href="#"><i id="test1" className="fa fa-arrow-up fa-lg bottomtopbtnabt"></i></a>
+          {/* <a href="#"><i id="test1" className="fa fa-arrow-up fa-lg bottomtopbtnabt"></i></a> */}
 
       </div>
     

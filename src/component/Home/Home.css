@@ -9,7 +9,7 @@
     background-color: white;
     min-height:100%;
     position:relative;
-    height: 2000px;
+    height: 3000px;
 }
 
 
@@ -36,7 +36,7 @@
     width:100%;
 }
 
-.bottomtopbtnresume{
+/* .bottomtopbtnresume{
     width: 18px;
     height: 18px;
     position: fixed;
@@ -44,7 +44,7 @@
     right: 1px;
     bottom:310px;
     text-decoration: none;
-  }
+  } */
 
   .title-home{
       color: white;
@@ -61,10 +61,108 @@
     font-size: 22px;
   }
 
-  .profile_description{
-    height: 200px;
-    background-color: orange;
-  }
+  /* code block */
+
+
+ .code-block{
+    width:100%;
+    height: 775px;
+ }
+ .code_block_pic{
+     float: left;
+     height: 600px;
+     padding: 80px;
+ }
+ .code-block-desc{
+     float: left;
+     padding-top: 275px;
+     padding-left: 40px;
+ } 
+
+ .passion-line{
+    font-size: 35px;
+    color: #1a1a1a;
+    font-family: 'Lato', sans-serif;
+}
+
+.desc-line{
+  font-size: 17px;
+  color: #1a1a1a;
+}
+
+ 
+  /* profile block */
+.profile-name{
+    background-color: #1a1a1a;
+    height: 25px;
+    text-align: center;
+    margin:auto;
+    padding-top: 45px;
+}
+
+.profile-text{
+    color:white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.profile-description {
+    width:100%;
+    height: 400px;
+}
+ 
+.n-color{
+    color: #E1A87A;
+}
+
+.profile-main{
+    height: 450px;
+}
+.profile-picture {
+  float: left;
+  width: 35%;
+  height: 100%;
+  background: #1a1a1a;
+}
+.profile-pic-inside{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.profile-info{
+  float: left;
+  width: 33%;
+  height: 100%;
+  background: #1a1a1a;
+  
+}
+
+.space{
+    padding-top: 30px;
+}
+.desc{
+    padding-left: 45px;
+    padding-top: 10px;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.profile-code-picture{
+  float: left;
+  width: 32%;
+  height: 100%;
+  background: #1a1a1a;
+}
+
+.programming{
+    height: 350px;
+    padding-top: 25px;
+}
+
+
 
 
   @media only screen and (max-width: 600px) {
@@ -74,5 +172,23 @@
         text-align: center;
         font-size:30px;
         padding-top: 130px;
+    }
+
+    .code_block_pic { 
+        display: block;
+        width: 100%;
+      }
+
+      .code_block_description { 
+        display: inline-block;
+        width: 100%;
+        height:100px;
+      }
+
+      .code-column {
+        width: 100%;
+      }
+      .rt{
+        padding-top: 50px;
     }
   }

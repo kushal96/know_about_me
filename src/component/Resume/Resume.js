@@ -23,7 +23,7 @@ function Resume() {
             <div id="footerhome">
                 <Footer />
             </div>
-            <a href="#"><i className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a>
+            {/* <a href="#"><i className="fa fa-arrow-up fa-lg bottomtopbtnresume"></i></a> */}
         
       </div>
     
